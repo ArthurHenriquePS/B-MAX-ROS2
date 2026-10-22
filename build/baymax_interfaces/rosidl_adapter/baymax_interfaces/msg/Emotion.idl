@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baymax_interfaces/msg/Emotion.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module baymax_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Expressão/emoção detectada pelo vision_node." "\n"
+      "label: uma de {neutral, happy, sad, angry, surprised, fearful, disgusted}")
+    struct Emotion {
+      string label;
+
+      @verbatim (language="comment", text=
+        "confidence: 0.0 a 1.0")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "timestamp da captura")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

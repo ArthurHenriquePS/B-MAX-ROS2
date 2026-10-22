@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: baymax-speech
+Version: 0.1.0
+Summary: Áudio do Baymax: captura (mic), STT (whisper.cpp) e TTS (Piper).
+Maintainer: icbaymax
+Maintainer-email: icbaymax@example.com
+License: MIT

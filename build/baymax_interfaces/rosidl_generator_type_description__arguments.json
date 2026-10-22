@@ -1,0 +1,11 @@
+{
+  "package_name": "baymax_interfaces",
+  "output_dir": "/home/icbaymax/baymax_ws/build/baymax_interfaces/rosidl_generator_type_description/baymax_interfaces",
+  "idl_tuples": [
+    "/home/icbaymax/baymax_ws/build/baymax_interfaces/rosidl_adapter/baymax_interfaces:msg/Emotion.idl",
+    "/home/icbaymax/baymax_ws/build/baymax_interfaces/rosidl_adapter/baymax_interfaces:msg/MotionCommand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,17 @@
+[1.091s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_brain': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_brain/build --no-deps symlink_data
+[1.335s] running develop
+[1.413s] running egg_info
+[1.420s] writing baymax_brain.egg-info/PKG-INFO
+[1.420s] writing dependency_links to baymax_brain.egg-info/dependency_links.txt
+[1.421s] writing entry points to baymax_brain.egg-info/entry_points.txt
+[1.421s] writing requirements to baymax_brain.egg-info/requires.txt
+[1.421s] writing top-level names to baymax_brain.egg-info/top_level.txt
+[1.441s] reading manifest file 'baymax_brain.egg-info/SOURCES.txt'
+[1.441s] writing manifest file 'baymax_brain.egg-info/SOURCES.txt'
+[1.454s] running build_ext
+[1.454s] Creating /home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages/baymax-brain.egg-link (link to .)
+[1.454s] Installing brain_node script to /home/icbaymax/baymax_ws/install/baymax_brain/lib/baymax_brain
+[1.454s] 
+[1.454s] Installed /home/icbaymax/baymax_ws/build/baymax_brain
+[1.454s] running symlink_data
+[1.481s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_brain' returned '0': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_brain/build --no-deps symlink_data

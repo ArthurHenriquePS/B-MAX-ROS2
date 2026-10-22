@@ -1,0 +1,146 @@
+[0.012s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_interfaces -- -j16 -l16
+[0.203s] [  2%] Built target baymax_interfaces__rosidl_generator_type_description
+[0.203s] [  4%] Built target baymax_interfaces__rs
+[0.204s] [  4%] Built target ament_cmake_python_symlink_baymax_interfaces
+[0.204s] [  6%] Built target baymax_interfaces__cpp
+[0.204s] [ 24%] Built target baymax_interfaces__rosidl_generator_c
+[0.204s] [ 33%] Built target baymax_interfaces__rosidl_typesupport_introspection_c
+[0.204s] [ 42%] Built target baymax_interfaces__rosidl_typesupport_c
+[0.204s] [ 77%] Built target baymax_interfaces__rosidl_typesupport_introspection_cpp
+[0.204s] [ 77%] Built target baymax_interfaces__rosidl_typesupport_fastrtps_c
+[0.204s] [ 77%] Built target baymax_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.204s] [ 77%] Built target baymax_interfaces__rosidl_typesupport_cpp
+[0.204s] [ 77%] Built target baymax_interfaces
+[0.204s] [ 80%] Built target baymax_interfaces__py
+[0.204s] [ 86%] Built target baymax_interfaces__rosidl_generator_py
+[0.205s] [100%] Built target baymax_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.205s] [100%] Built target baymax_interfaces_s__rosidl_typesupport_c
+[0.205s] [100%] Built target baymax_interfaces_s__rosidl_typesupport_introspection_c
+[0.279s] running egg_info
+[0.286s] writing baymax_interfaces.egg-info/PKG-INFO
+[0.286s] writing dependency_links to baymax_interfaces.egg-info/dependency_links.txt
+[0.287s] writing top-level names to baymax_interfaces.egg-info/top_level.txt
+[0.312s] reading manifest file 'baymax_interfaces.egg-info/SOURCES.txt'
+[0.312s] writing manifest file 'baymax_interfaces.egg-info/SOURCES.txt'
+[0.333s] [100%] Built target ament_cmake_python_build_baymax_interfaces_egg
+[0.389s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_interfaces -- -j16 -l16
+[0.398s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_interfaces
+[0.404s] -- Install configuration: ""
+[0.405s] -- Execute custom install script
+[0.405s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/ament_index/resource_index/rosidl_interfaces/baymax_interfaces
+[0.405s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/Emotion.json
+[0.405s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/MotionCommand.json
+[0.406s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__functions.h
+[0.406s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__struct.h
+[0.406s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__type_support.h
+[0.406s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__functions.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__struct.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__type_support.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/emotion.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/motion_command.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/library_path.sh
+[0.407s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/library_path.dsv
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__rosidl_typesupport_fastrtps_c.h
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__rosidl_typesupport_fastrtps_c.h
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__rosidl_typesupport_introspection_c.h
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__rosidl_typesupport_introspection_c.h
+[0.408s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__builder.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__struct.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__traits.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__type_support.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__builder.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__struct.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__traits.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__type_support.hpp
+[0.409s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/emotion.hpp
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/motion_command.hpp
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.410s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/emotion__rosidl_typesupport_introspection_cpp.hpp
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/include/baymax_interfaces/baymax_interfaces/msg/detail/motion_command__rosidl_typesupport_introspection_cpp.hpp
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/pythonpath.sh
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/pythonpath.dsv
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+[0.411s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/__init__.py
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/_baymax_interfaces_s.ep.rosidl_typesupport_c.c
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/_baymax_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/_baymax_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_c.so
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.412s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg/__init__.py
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg/_emotion.py
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg/_emotion_s.c
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg/_motion_command.py
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg/_motion_command_s.c
+[0.413s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_c.so
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/rust/Cargo.toml
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/rust/build.rs
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/rust/src/lib.rs
+[0.414s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/rust/src/msg.rs
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/rust/src/msg/rmw.rs
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/Emotion.idl
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/MotionCommand.idl
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/Emotion.msg
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/msg/MotionCommand.msg
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/ament_index/resource_index/package_run_dependencies/baymax_interfaces
+[0.415s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/ament_index/resource_index/parent_prefix_path/baymax_interfaces
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/ament_prefix_path.sh
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/ament_prefix_path.dsv
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/path.sh
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/environment/path.dsv
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/local_setup.bash
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/local_setup.sh
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/local_setup.zsh
+[0.416s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/local_setup.dsv
+[0.416s] -- Symlinking: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/package.dsv
+[0.424s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/ament_index/resource_index/packages/baymax_interfaces
+[0.424s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.424s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfacesConfig.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfacesConfig-version.cmake
+[0.425s] -- Up-to-date symlink: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/package.xml
+[0.426s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_generator_c.so
+[0.427s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.427s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_introspection_c.so
+[0.427s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_c.so
+[0.428s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.429s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.429s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_typesupport_cpp.so
+[0.453s] Listing '/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces'...
+[0.454s] Listing '/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages/baymax_interfaces/msg'...
+[0.458s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/lib/libbaymax_interfaces__rosidl_generator_py.so
+[0.458s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_generator_cExport.cmake
+[0.458s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.458s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.458s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_cExport.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_generator_cppExport.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.459s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_cppExport.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/baymax_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_generator_pyExport.cmake
+[0.460s] -- Up-to-date: /home/icbaymax/baymax_ws/install/baymax_interfaces/share/baymax_interfaces/cmake/export_baymax_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.462s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_interfaces

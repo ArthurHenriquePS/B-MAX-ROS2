@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a45a30e099891be231c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "baymax_interfaces__py",
+					"jsonFile" : "directory-baymax_interfaces__py-259993b99fd261503096.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/icbaymax/baymax_ws/build/baymax_interfaces/baymax_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "baymax_interfaces__rs",
+					"jsonFile" : "directory-baymax_interfaces__rs-8873c96e38da65f4e614.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/icbaymax/baymax_ws/build/baymax_interfaces/baymax_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "baymax_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_baymax_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_baymax_interfaces_egg-abb546f57a14556e6178.json",
+					"name" : "ament_cmake_python_build_baymax_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_baymax_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_baymax_interfaces-359693af14d6d9d315af.json",
+					"name" : "ament_cmake_python_symlink_baymax_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces-d13a5badc4f5a7ef2abd.json",
+					"name" : "baymax_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__cpp-f7c5297185babd0ecba3.json",
+					"name" : "baymax_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "baymax_interfaces__py::@b21823bd75a9952c18a1",
+					"jsonFile" : "target-baymax_interfaces__py-a08c3da051bb91e8d25b.json",
+					"name" : "baymax_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_generator_c-8aaa899a921e5cdd6b1e.json",
+					"name" : "baymax_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_generator_py-fc1d8125f91f0441eb01.json",
+					"name" : "baymax_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_generator_type_description-cc41172aa93118a01cbc.json",
+					"name" : "baymax_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_c-e7319c7e3e6f300e329b.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_cpp-a728befb890af34b8491.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_fastrtps_c-6c42fd6f3a47a04bf84f.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_fastrtps_cpp-a68019f4e95bace9d86f.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_introspection_c-fa5ea45d9d86fdd7cee6.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces__rosidl_typesupport_introspection_cpp-7d5b89046b1450779015.json",
+					"name" : "baymax_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "baymax_interfaces__rs::@c341a00166482239205f",
+					"jsonFile" : "target-baymax_interfaces__rs-b1d5a1ec08c30c54fc91.json",
+					"name" : "baymax_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces_s__rosidl_typesupport_c-60e2c5b7d91fbe8dea07.json",
+					"name" : "baymax_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces_s__rosidl_typesupport_fastrtps_c-17105a9556a6416a66a7.json",
+					"name" : "baymax_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces_s__rosidl_typesupport_introspection_c-eef7e05ba90fee65cf4c.json",
+					"name" : "baymax_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baymax_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baymax_interfaces_uninstall-ea6991bccb2ec418c114.json",
+					"name" : "baymax_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-41779ff27ca4e5911915.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/icbaymax/baymax_ws/build/baymax_interfaces",
+		"source" : "/home/icbaymax/baymax_ws/src/baymax_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

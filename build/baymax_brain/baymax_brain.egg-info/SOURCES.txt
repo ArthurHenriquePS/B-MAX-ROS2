@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+baymax_brain/__init__.py
+baymax_brain/brain_node.py
+baymax_brain.egg-info/PKG-INFO
+baymax_brain.egg-info/SOURCES.txt
+baymax_brain.egg-info/dependency_links.txt
+baymax_brain.egg-info/entry_points.txt
+baymax_brain.egg-info/requires.txt
+baymax_brain.egg-info/top_level.txt
+baymax_brain.egg-info/zip-safe
+resource/baymax_brain

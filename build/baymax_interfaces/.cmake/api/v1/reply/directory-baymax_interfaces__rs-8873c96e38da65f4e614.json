@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "baymax_interfaces__rs",
+		"source" : "/home/icbaymax/baymax_ws/build/baymax_interfaces/baymax_interfaces__rs"
+	}
+}

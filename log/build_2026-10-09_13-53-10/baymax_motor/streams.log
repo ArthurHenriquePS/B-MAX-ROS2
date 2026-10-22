@@ -1,0 +1,24 @@
+[1.150s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_motor': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_motor/build --no-deps symlink_data
+[1.395s] running develop
+[1.473s] running egg_info
+[1.473s] creating baymax_motor.egg-info
+[1.480s] writing baymax_motor.egg-info/PKG-INFO
+[1.480s] writing dependency_links to baymax_motor.egg-info/dependency_links.txt
+[1.480s] writing entry points to baymax_motor.egg-info/entry_points.txt
+[1.481s] writing requirements to baymax_motor.egg-info/requires.txt
+[1.481s] writing top-level names to baymax_motor.egg-info/top_level.txt
+[1.481s] writing manifest file 'baymax_motor.egg-info/SOURCES.txt'
+[1.498s] reading manifest file 'baymax_motor.egg-info/SOURCES.txt'
+[1.498s] writing manifest file 'baymax_motor.egg-info/SOURCES.txt'
+[1.513s] running build_ext
+[1.513s] Creating /home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages/baymax-motor.egg-link (link to .)
+[1.513s] Installing motor_bridge_node script to /home/icbaymax/baymax_ws/install/baymax_motor/lib/baymax_motor
+[1.514s] 
+[1.514s] Installed /home/icbaymax/baymax_ws/build/baymax_motor
+[1.514s] running symlink_data
+[1.514s] creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index
+[1.514s] creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index
+[1.514s] creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index/packages
+[1.514s] symbolically linking /home/icbaymax/baymax_ws/build/baymax_motor/resource/baymax_motor -> /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index/packages
+[1.514s] symbolically linking /home/icbaymax/baymax_ws/build/baymax_motor/package.xml -> /home/icbaymax/baymax_ws/install/baymax_motor/share/baymax_motor
+[1.539s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_motor' returned '0': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_motor/build --no-deps symlink_data

@@ -1,0 +1,2 @@
+[console_scripts]
+motor_bridge_node = baymax_motor.motor_bridge_node:main

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+baymax_speech/__init__.py
+baymax_speech/mic_node.py
+baymax_speech/stt_node.py
+baymax_speech/tts_node.py
+baymax_speech.egg-info/PKG-INFO
+baymax_speech.egg-info/SOURCES.txt
+baymax_speech.egg-info/dependency_links.txt
+baymax_speech.egg-info/entry_points.txt
+baymax_speech.egg-info/requires.txt
+baymax_speech.egg-info/top_level.txt
+baymax_speech.egg-info/zip-safe
+resource/baymax_speech

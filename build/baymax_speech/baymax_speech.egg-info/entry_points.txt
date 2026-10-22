@@ -1,0 +1,4 @@
+[console_scripts]
+mic_node = baymax_speech.mic_node:main
+stt_node = baymax_speech.stt_node:main
+tts_node = baymax_speech.tts_node:main

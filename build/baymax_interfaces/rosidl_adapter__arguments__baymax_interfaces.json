@@ -1,0 +1,7 @@
+{
+  "package_name": "baymax_interfaces",
+  "non_idl_tuples": [
+    "/home/icbaymax/baymax_ws/src/baymax_interfaces:msg/Emotion.msg",
+    "/home/icbaymax/baymax_ws/src/baymax_interfaces:msg/MotionCommand.msg"
+  ]
+}

@@ -1,0 +1,317 @@
+[0.054s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'baymax_speech', 'baymax_bringup']
+[0.054s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['baymax_speech', 'baymax_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bef0b30a570>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bef0b4dfa40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bef0b4dfa40>>)
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/icbaymax/baymax_ws'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(models/whisper) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_brain) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_brain' with type 'ros.ament_python' and name 'baymax_brain'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_bringup) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_bringup' with type 'ros.ament_cmake' and name 'baymax_bringup'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_common) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_common' with type 'ros.ament_python' and name 'baymax_common'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_interfaces) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_interfaces' with type 'ros.ament_cmake' and name 'baymax_interfaces'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_motor) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_motor' with type 'ros.ament_python' and name 'baymax_motor'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_speech) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_speech' with type 'ros.ament_python' and name 'baymax_speech'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/baymax_vision) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baymax_vision' with type 'ros.ament_python' and name 'baymax_vision'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'baymax_common' in 'src/baymax_common'
+[0.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'baymax_interfaces' in 'src/baymax_interfaces'
+[0.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'baymax_brain' in 'src/baymax_brain'
+[0.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'baymax_motor' in 'src/baymax_motor'
+[0.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'baymax_vision' in 'src/baymax_vision'
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/icbaymax/baymax_ws/install
+[0.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/jazzy
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_speech' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'baymax_speech' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icbaymax/baymax_ws/build/baymax_speech', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icbaymax/baymax_ws/install/baymax_speech', 'merge_install': False, 'path': '/home/icbaymax/baymax_ws/src/baymax_speech', 'symlink_install': True, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'baymax_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'baymax_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/icbaymax/baymax_ws/build/baymax_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/icbaymax/baymax_ws/install/baymax_bringup', 'merge_install': False, 'path': '/home/icbaymax/baymax_ws/src/baymax_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/icbaymax/baymax_ws/src/baymax_speech' with build type 'ament_python'
+[0.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('baymax_speech', 'ament_prefix_path')
+[0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/ament_prefix_path.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/ament_prefix_path.dsv'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/ament_prefix_path.sh'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/icbaymax/baymax_ws/src/baymax_speech'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.733s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: editable_wheel, check, clean, alias, upload, register, build_clib, develop, install, init_catalog, bdist_dumb, saveopts, setopt, update_catalog, build_py, upload_docs, install_egg_info, easy_install, rotate, bdist_rpm, sdist, dist_info, extract_messages, egg_info, build_scripts, compile_catalog, install_scripts, install_data, install_headers, build, symlink_data, bdist, test, bdist_wheel, install_lib, bdist_egg, build_ext
+[0.972s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --exclude-scripts, --no-find-links, --build-directory, --multi-version, --no-user-cfg, --script-dir, --force-installation-into-system-dir, --verbose, --zip-ok, --site-dirs, --index-url, --editable, --optimize, --always-copy, --upgrade, --install-layout, --install-dir, --user, --quiet, --version, --find-links, --record, --egg-path, --help, --no-deps, --uninstall, --always-unzip, --dry-run, --local-snapshots-ok, --prefix, --allow-hosts
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icbaymax/baymax_ws/build/baymax_speech': PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_speech/build --no-deps symlink_data
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('baymax_speech', 'pythonpath_develop')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/build/baymax_speech/share/baymax_speech/hook/pythonpath_develop.ps1'
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icbaymax/baymax_ws/build/baymax_speech' returned '0': PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_speech/build --no-deps symlink_data
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icbaymax/baymax_ws/build/baymax_speech/share/baymax_speech/hook/pythonpath_develop.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/build/baymax_speech/share/baymax_speech/hook/pythonpath_develop.sh'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech' for CMake module files
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech' for CMake config files
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech/lib'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech/lib/pkgconfig/baymax_speech.pc'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages'
+[1.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('baymax_speech', 'pythonpath')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/pythonpath.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/pythonpath.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/hook/pythonpath.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_speech/bin'
+[1.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baymax_speech)
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/package.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_speech/share/baymax_speech/package.zsh'
+[1.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icbaymax/baymax_ws/install/baymax_speech/share/colcon-core/packages/baymax_speech)
+[1.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/icbaymax/baymax_ws/src/baymax_bringup' with build type 'ament_cmake'
+[1.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/icbaymax/baymax_ws/src/baymax_bringup'
+[1.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icbaymax/baymax_ws/build/baymax_bringup': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_common:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_common:/opt/ros/jazzy PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_bringup -- -j16 -l16
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icbaymax/baymax_ws/build/baymax_bringup' returned '0': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_common:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_common:/opt/ros/jazzy PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_bringup -- -j16 -l16
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/icbaymax/baymax_ws/build/baymax_bringup': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_common:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_common:/opt/ros/jazzy PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_bringup
+[1.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baymax_bringup)
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup' for CMake module files
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/icbaymax/baymax_ws/build/baymax_bringup' returned '0': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_common:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_interfaces:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:/home/icbaymax/baymax_ws/install/baymax_bringup:/home/icbaymax/baymax_ws/install/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_common:/opt/ros/jazzy PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_motor:/home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_brain:/home/icbaymax/baymax_ws/install/baymax_brain/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_speech:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/build/baymax_common:/home/icbaymax/baymax_ws/install/baymax_common/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_bringup
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup' for CMake config files
+[1.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('baymax_bringup', 'cmake_prefix_path')
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.sh'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/bin'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/lib/pkgconfig/baymax_bringup.pc'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/lib/python3.12/site-packages'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/bin'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.sh'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.bash'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.zsh'
+[1.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icbaymax/baymax_ws/install/baymax_bringup/share/colcon-core/packages/baymax_bringup)
+[1.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baymax_bringup)
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup' for CMake module files
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup' for CMake config files
+[1.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('baymax_bringup', 'cmake_prefix_path')
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/hook/cmake_prefix_path.sh'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/bin'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/lib/pkgconfig/baymax_bringup.pc'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/lib/python3.12/site-packages'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/icbaymax/baymax_ws/install/baymax_bringup/bin'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.sh'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.bash'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/icbaymax/baymax_ws/install/baymax_bringup/share/baymax_bringup/package.zsh'
+[1.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/icbaymax/baymax_ws/install/baymax_bringup/share/colcon-core/packages/baymax_bringup)
+[1.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.425s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.426s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icbaymax/baymax_ws/install/local_setup.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/icbaymax/baymax_ws/install/_local_setup_util_ps1.py'
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icbaymax/baymax_ws/install/setup.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icbaymax/baymax_ws/install/local_setup.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/icbaymax/baymax_ws/install/_local_setup_util_sh.py'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icbaymax/baymax_ws/install/setup.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icbaymax/baymax_ws/install/local_setup.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icbaymax/baymax_ws/install/setup.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/icbaymax/baymax_ws/install/local_setup.zsh'
+[1.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/icbaymax/baymax_ws/install/setup.zsh'

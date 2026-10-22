@@ -1,0 +1,9 @@
+setup.py
+baymax_interfaces/__init__.py
+baymax_interfaces.egg-info/PKG-INFO
+baymax_interfaces.egg-info/SOURCES.txt
+baymax_interfaces.egg-info/dependency_links.txt
+baymax_interfaces.egg-info/top_level.txt
+baymax_interfaces/msg/__init__.py
+baymax_interfaces/msg/_emotion.py
+baymax_interfaces/msg/_motion_command.py

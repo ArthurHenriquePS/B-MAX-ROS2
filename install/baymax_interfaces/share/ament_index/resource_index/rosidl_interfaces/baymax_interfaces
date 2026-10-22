@@ -1,0 +1,4 @@
+msg/Emotion.idl
+msg/Emotion.msg
+msg/MotionCommand.idl
+msg/MotionCommand.msg

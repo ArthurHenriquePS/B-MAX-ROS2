@@ -1,0 +1,4 @@
+Invoking command in '/home/icbaymax/baymax_ws/build/baymax_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_interfaces -- -j16 -l16
+Invoked command in '/home/icbaymax/baymax_ws/build/baymax_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/icbaymax/baymax_ws/build/baymax_interfaces -- -j16 -l16
+Invoking command in '/home/icbaymax/baymax_ws/build/baymax_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_interfaces
+Invoked command in '/home/icbaymax/baymax_ws/build/baymax_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/icbaymax/baymax_ws/build/baymax_interfaces

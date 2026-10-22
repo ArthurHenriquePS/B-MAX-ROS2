@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating baymax_motor.egg-info
+writing baymax_motor.egg-info/PKG-INFO
+writing dependency_links to baymax_motor.egg-info/dependency_links.txt
+writing entry points to baymax_motor.egg-info/entry_points.txt
+writing requirements to baymax_motor.egg-info/requires.txt
+writing top-level names to baymax_motor.egg-info/top_level.txt
+writing manifest file 'baymax_motor.egg-info/SOURCES.txt'
+reading manifest file 'baymax_motor.egg-info/SOURCES.txt'
+writing manifest file 'baymax_motor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icbaymax/baymax_ws/install/baymax_motor/lib/python3.12/site-packages/baymax-motor.egg-link (link to .)
+Installing motor_bridge_node script to /home/icbaymax/baymax_ws/install/baymax_motor/lib/baymax_motor
+
+Installed /home/icbaymax/baymax_ws/build/baymax_motor
+running symlink_data
+creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index
+creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index
+creating /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index/packages
+symbolically linking /home/icbaymax/baymax_ws/build/baymax_motor/resource/baymax_motor -> /home/icbaymax/baymax_ws/install/baymax_motor/share/ament_index/resource_index/packages
+symbolically linking /home/icbaymax/baymax_ws/build/baymax_motor/package.xml -> /home/icbaymax/baymax_ws/install/baymax_motor/share/baymax_motor

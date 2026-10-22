@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing baymax_speech.egg-info/PKG-INFO
+writing dependency_links to baymax_speech.egg-info/dependency_links.txt
+writing entry points to baymax_speech.egg-info/entry_points.txt
+writing requirements to baymax_speech.egg-info/requires.txt
+writing top-level names to baymax_speech.egg-info/top_level.txt
+reading manifest file 'baymax_speech.egg-info/SOURCES.txt'
+writing manifest file 'baymax_speech.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages/baymax-speech.egg-link (link to .)
+Installing mic_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+Installing stt_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+Installing tts_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+
+Installed /home/icbaymax/baymax_ws/build/baymax_speech
+running symlink_data

@@ -1,0 +1,19 @@
+[0.780s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_speech': PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_speech/build --no-deps symlink_data
+[1.010s] running develop
+[1.086s] running egg_info
+[1.092s] writing baymax_speech.egg-info/PKG-INFO
+[1.093s] writing dependency_links to baymax_speech.egg-info/dependency_links.txt
+[1.093s] writing entry points to baymax_speech.egg-info/entry_points.txt
+[1.093s] writing requirements to baymax_speech.egg-info/requires.txt
+[1.093s] writing top-level names to baymax_speech.egg-info/top_level.txt
+[1.109s] reading manifest file 'baymax_speech.egg-info/SOURCES.txt'
+[1.110s] writing manifest file 'baymax_speech.egg-info/SOURCES.txt'
+[1.123s] running build_ext
+[1.123s] Creating /home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages/baymax-speech.egg-link (link to .)
+[1.123s] Installing mic_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+[1.124s] Installing stt_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+[1.124s] Installing tts_node script to /home/icbaymax/baymax_ws/install/baymax_speech/lib/baymax_speech
+[1.124s] 
+[1.124s] Installed /home/icbaymax/baymax_ws/build/baymax_speech
+[1.124s] running symlink_data
+[1.144s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_speech' returned '0': PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_speech/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv-speech) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_speech/build --no-deps symlink_data

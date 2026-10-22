@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+baymax_common/__init__.py
+baymax_common/serial_protocol.py
+baymax_common.egg-info/PKG-INFO
+baymax_common.egg-info/SOURCES.txt
+baymax_common.egg-info/dependency_links.txt
+baymax_common.egg-info/requires.txt
+baymax_common.egg-info/top_level.txt
+baymax_common.egg-info/zip-safe
+resource/baymax_common

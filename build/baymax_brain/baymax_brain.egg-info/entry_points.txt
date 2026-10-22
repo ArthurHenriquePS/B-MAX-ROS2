@@ -1,0 +1,2 @@
+[console_scripts]
+brain_node = baymax_brain.brain_node:main

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+baymax_vision/__init__.py
+baymax_vision/vision_node.py
+baymax_vision.egg-info/PKG-INFO
+baymax_vision.egg-info/SOURCES.txt
+baymax_vision.egg-info/dependency_links.txt
+baymax_vision.egg-info/entry_points.txt
+baymax_vision.egg-info/requires.txt
+baymax_vision.egg-info/top_level.txt
+baymax_vision.egg-info/zip-safe
+resource/baymax_vision

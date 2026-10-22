@@ -1,0 +1,17 @@
+[1.081s] Invoking command in '/home/icbaymax/baymax_ws/build/baymax_vision': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_vision/build --no-deps symlink_data
+[1.331s] running develop
+[1.410s] running egg_info
+[1.416s] writing baymax_vision.egg-info/PKG-INFO
+[1.417s] writing dependency_links to baymax_vision.egg-info/dependency_links.txt
+[1.417s] writing entry points to baymax_vision.egg-info/entry_points.txt
+[1.417s] writing requirements to baymax_vision.egg-info/requires.txt
+[1.417s] writing top-level names to baymax_vision.egg-info/top_level.txt
+[1.434s] reading manifest file 'baymax_vision.egg-info/SOURCES.txt'
+[1.438s] writing manifest file 'baymax_vision.egg-info/SOURCES.txt'
+[1.449s] running build_ext
+[1.449s] Creating /home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages/baymax-vision.egg-link (link to .)
+[1.450s] Installing vision_node script to /home/icbaymax/baymax_ws/install/baymax_vision/lib/baymax_vision
+[1.450s] 
+[1.450s] Installed /home/icbaymax/baymax_ws/build/baymax_vision
+[1.450s] running symlink_data
+[1.474s] Invoked command in '/home/icbaymax/baymax_ws/build/baymax_vision' returned '0': AMENT_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces LD_LIBRARY_PATH=/home/icbaymax/baymax_ws/install/baymax_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/icbaymax/baymax_ws/build/baymax_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icbaymax/baymax_ws/install/baymax_vision/lib/python3.12/site-packages:/home/icbaymax/baymax_ws/install/baymax_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icbaymax/baymax_ws/build/baymax_vision/build --no-deps symlink_data

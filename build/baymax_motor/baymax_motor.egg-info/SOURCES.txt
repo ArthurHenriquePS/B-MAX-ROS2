@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+baymax_motor/__init__.py
+baymax_motor/motor_bridge_node.py
+baymax_motor.egg-info/PKG-INFO
+baymax_motor.egg-info/SOURCES.txt
+baymax_motor.egg-info/dependency_links.txt
+baymax_motor.egg-info/entry_points.txt
+baymax_motor.egg-info/requires.txt
+baymax_motor.egg-info/top_level.txt
+baymax_motor.egg-info/zip-safe
+resource/baymax_motor

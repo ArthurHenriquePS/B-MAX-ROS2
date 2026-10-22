@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: baymax-motor
+Version: 0.1.0
+Summary: Ponte serial UART entre ROS2 e os MCUs (cabeça/ESP32, braço/Arduino).
+Maintainer: icbaymax
+Maintainer-email: icbaymax@example.com
+License: MIT

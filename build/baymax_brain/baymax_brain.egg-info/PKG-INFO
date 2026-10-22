@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: baymax-brain
+Version: 0.1.0
+Summary: Nó cognitivo do Baymax (LLM local Qwen2.5 3B via Ollama).
+Maintainer: icbaymax
+Maintainer-email: icbaymax@example.com
+License: MIT

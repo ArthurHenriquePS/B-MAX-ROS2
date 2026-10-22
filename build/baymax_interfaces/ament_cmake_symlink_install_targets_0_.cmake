@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/icbaymax/baymax_ws/build/baymax_interfaces/rosidl_generator_py/baymax_interfaces/baymax_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "baymax_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/baymax_interfaces")
